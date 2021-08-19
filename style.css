@@ -1,0 +1,115 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #e7e6e3;
+}
+
+#navbar {
+    height: 80px;
+    background-color: #111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+#navleft {
+    color: white;
+    display: flex;
+    margin-left: 40px;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#fistlogo {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#logo {
+    width: 80px;
+}
+
+#search{ 
+    position: relative;
+}
+
+.fa {
+    color: white;
+    position: absolute;
+    right: 210px;
+    top: 5px;
+}
+
+input {
+    background-color: #474747;
+    color: rgb(202, 202, 202);
+    border: none;
+    text-align: center;
+}
+
+#navright {
+    margin-right: 200px;
+    height: 30px;
+    border-radius: 40px;
+}
+
+#header {
+    height: 500px;
+    background-image: url("riot-assets/tibbers.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#games {
+    background-color:#e7e6e3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#games img {
+    position: relative;
+    bottom: 40px;
+    border: 8px solid #e7e6e3;
+    width: 40vw;
+}
+
+#forge {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    align-items: center;
+}
+
+#info {
+    width: 40vw;
+    max-width: 500px;
+}
+
+#info button {
+    background-color: #d1363a;
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    color: white;
+    border: none;
+}
+
+#forge img {
+    width: 40vw;
+    height: 80vh;
+    object-fit: cover;
+}
+
+#footer {
+    height: 200px;
+    background-color:#111111;
+}
